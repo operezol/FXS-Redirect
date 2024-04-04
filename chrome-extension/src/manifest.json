@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Mi extensión de redirección",
+    "version": "1.0",
+    "description": "Una extensión de Chrome para redirigir URLs.",
+    "browser_action": {
+      "default_popup": "build/index.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "permissions": [
+      "webRequest",
+      "<all_urls>",
+      "storage"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
