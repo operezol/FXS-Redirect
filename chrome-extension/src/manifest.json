@@ -12,7 +12,7 @@
       }
     },
     "permissions": [
-      "webRequest",
+      "declarativeWebRequest",
       "<all_urls>",
       "storage"
     ],
